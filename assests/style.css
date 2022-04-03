@@ -22,7 +22,7 @@ nav {
 nav span {
     font-size: 50px;
     padding-left: 20px;
-    background: var(--color-primary);
+    padding-top: 15px;
 }
 
 ul {
@@ -41,6 +41,18 @@ body{
     background-color: var(--color-bg-primary);
 }
 
+main{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.bio {
+    font-size: 25px;
+    text-align: right;
+    padding-right: 40px;
+}
+
 .backgroundPic {
     height: 280px;
     background: url(./valeria-nikitina-7HaJl7FZraQ-unsplash.jpg);
@@ -53,8 +65,22 @@ body{
     padding: 10px;
     position: absolute;
     bottom: 20px;
+    font-size: 28px;
 }
+ .titles {
+    border-right: solid 8px var(--color-secondary);
+    text-align: right;
+    padding-right: 10px;
+    width: 20%;
+    font-size: 40px;
+ }
 
-.button{
-    
-}
+ .contact-info ul {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     list-style-type: none;
+     height: 100%;
+     width: 100%;
+
+ }
