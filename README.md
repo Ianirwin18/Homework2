@@ -8,4 +8,4 @@ then I added the nav bar
 
 After i added a bio and links to my email and other contact areas at the bottom of the page
 
-added place holder images for my later projects
+Added place holder images for my later projects (still need to figure out the css for these tho)
