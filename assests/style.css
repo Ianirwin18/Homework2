@@ -21,7 +21,7 @@ nav {
 
 nav span {
     font-size: 50px;
-    padding-left: 20px;
+    padding-left: 200px;
     padding-top: 15px;
 }
 
@@ -84,20 +84,18 @@ main{
      height: 100%;
      width: 100%;
  }
- .containers {
+
+ .projects{
      display: flex;
+     flex-direction: row-reverse;
      flex-wrap: wrap;
  }
-  .projects {
-     flex: 2 1 600px;
- }
- .project {
-     display: flex;
-     flex-wrap: wrap;
-     flex: 1 0 300px;
+
+ .flex-img {
+     display: block;
      margin: 10px;
      height: 200px;
-     position: relative;
+     border-style: groove;
  }
 
 
